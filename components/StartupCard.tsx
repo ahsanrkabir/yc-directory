@@ -15,7 +15,7 @@ const StartupCard = ({ post }: { post: StartupCardType }) => {
   return (
     <li className='startup-card group'>
       <div className='flex-between'>
-        <p className='startup_card_date'>
+        <p className='startup-card_date'>
           {formatDate(_createdAt)}
         </p>
 
